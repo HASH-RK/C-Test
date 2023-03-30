@@ -1,0 +1,3 @@
+﻿  test.c
+D:\DevelopTools\CODEFILE\C-test-git\C-Test\23-3-1-Test\23-3-1-Test\test.c(15,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+  23-3-1-Test.vcxproj -> D:\DevelopTools\CODEFILE\C-test-git\C-Test\23-3-1-Test\Debug\23-3-1-Test.exe
