@@ -10,12 +10,12 @@
 
 //int main()
 //{
-//	//int arr[3][5];
-//	//printf("%p\n",arr);
-//	//printf("%p\n",arr + 1);
+//	int arr[3][5];
+//	printf("%p\n",arr);
+//	printf("%p\n",arr + 1);
 //
-//	//printf("%p\n",&arr);
-//	//printf("%p\n",&arr + 1);
+//	printf("%p\n",&arr);
+//	printf("%p\n",&arr + 1);
 //
 //
 //	char* arr[4];
@@ -37,12 +37,19 @@ int main()
 	//test2(&arr);//传递的是整个二维数组的地址
 
 	//int* p2;
-
-	int (*p2)[10];
-	//printf("%p",p2);
-	for (int i = 0; i < 10; i++)
-	{
+	//int arr[10];
+	//int(*p2)[10] = &arr;
+	////printf("%p",p2);
+	//for (int i = 0; i < 10; i++)
+	//{
 	//	printf("%d", (*p2)[i]);
-	}
+	//}
+
+
+	//函数指针
+	//(*(void(*)()) 0)();
+	
+	void(*signal(int, void(*) (int))) (int);
+	
 	return 0;
 }
