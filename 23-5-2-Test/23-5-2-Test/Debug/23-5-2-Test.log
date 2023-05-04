@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\DevelopTools\CODEFILE\C-test-git\C-Test\23-5-2-Test\23-5-2-Test\test.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\DevelopTools\CODEFILE\C-test-git\C-Test\23-5-2-Test\23-5-2-Test\SeqList.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  23-5-2-Test.vcxproj -> D:\DevelopTools\CODEFILE\C-test-git\C-Test\23-5-2-Test\Debug\23-5-2-Test.exe
