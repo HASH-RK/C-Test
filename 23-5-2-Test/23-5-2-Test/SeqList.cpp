@@ -129,11 +129,11 @@ void SeqListInsert(SL* psl, int pos, SLDatatype x)
 void SeqListErase(SL* psl, int pos)
 {
 	assert(psl->size > 0);
-	//后覆盖前
-	int start = pos;
+	//前覆盖后
+	int end = psl->size;
 	while (start < psl->size-1)
 	{
-		psl->a[start] = psl->a[start+1];
+		psl->a[start+1] = psl->a[start];
 		start++;
 	}
 	psl->size--;
