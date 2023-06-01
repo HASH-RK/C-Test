@@ -34,11 +34,11 @@ int main()
 	//SLPopFront(&sl);
 	//SLPopFront(&sl);
 	//SLPrint(&sl);
-	//È°∫Â∫èË°®Êü•Êâæ
+	//À≥–Ú±Ì≤È’“
 	SeqListFind(&sl,3);
 	SeqListInsert(&sl, 2, 999);
 	SLPrint(&sl);
-	SeqListErase(&sl, 2);
+	//SeqListErase(&sl, 2);
 	SLPrint(&sl);
 
 	return 0;

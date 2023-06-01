@@ -126,15 +126,15 @@ void SeqListInsert(SL* psl, int pos, SLDatatype x)
 	psl->size++;
 }
 // 顺序表删除pos位置的值
-void SeqListErase(SL* psl, int pos)
-{
-	assert(psl->size > 0);
-	//前覆盖后
-	int end = psl->size;
-	while (start < psl->size-1)
-	{
-		psl->a[start+1] = psl->a[start];
-		start++;
-	}
-	psl->size--;
-}
+//void SeqListErase(SL* psl, int pos)
+//{
+//	assert(psl->size > 0);
+//	//前覆盖后
+//	int end = psl->size;
+//	while (end < psl->size-1)
+//	{
+//		psl->a[start+1] = psl->a[start];
+//		start++;
+//	}
+//	psl->size--;
+//}
