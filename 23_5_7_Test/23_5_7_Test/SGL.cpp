@@ -12,6 +12,8 @@ void SLTPrint(SLTNode* phead)
 	printf(" NULL");
 }
 
+
+//复用
 SLTNode* BuySLNode(SLDataType x)
 {
 	SLTNode* newnode = (SLTNode*)malloc(sizeof(SLTNode));
@@ -25,11 +27,11 @@ SLTNode* BuySLNode(SLDataType x)
 	return newnode;
 }
 
-void SLTPushFront(SLTNode** phead, SLDataType x)
+void SLTPushFront(SLTNode** pphead, SLDataType x)
 {
 	SLTNode* newnode = BuySLNode(x);
-	newnode->next = *phead;
-	*phead = newnode;
+	newnode->next = *pphead;
+	*pphead = newnode;
 }
 
 

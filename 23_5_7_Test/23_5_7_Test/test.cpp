@@ -38,12 +38,12 @@ void Test2()
 	SLTNode* pos3 = SLFind(SLT, 1);
 	SLErase(&SLT, pos3);
 	SLTPrint(SLT);
-
+	SLDestroy(SLT);
 }
 
 int main()
-//{
-//	//Test1();
-//	Test2();
-//	return 0;
-//}
+{
+	//Test1();
+	Test2();
+	return 0;
+}
