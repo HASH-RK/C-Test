@@ -1,0 +1,4 @@
+﻿  test2.cpp
+D:\DevelopTools\CODEFILE\C-test-git\C-Test\23_7_24_Class1\23_7_24_Class1\test2.cpp(188,8): error C2597: 对非静态成员“Date::_year”的非法引用
+D:\DevelopTools\CODEFILE\C-test-git\C-Test\23_7_24_Class1\23_7_24_Class1\test2.cpp(179): message : 参见“Date::_year”的声明
+D:\DevelopTools\CODEFILE\C-test-git\C-Test\23_7_24_Class1\23_7_24_Class1\test2.cpp(189,6): error C2059: 语法错误:“.”
